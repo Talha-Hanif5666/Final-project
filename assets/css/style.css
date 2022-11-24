@@ -30,6 +30,9 @@ body {
 .nav-item a:hover {
   cursor: pointer;
   color: #ec5242;
+  border: 3px solid #ec5242;
+  border-radius: 10%;
+  padding: 5px 5px 5px 5px;
 }
 
 #mlist li a:hover,
@@ -580,10 +583,12 @@ body {
 
   #menu- {
     background-color: #837f7f;
-    height: 450px;
+    height: 100%;
+    width: 100%;
     margin-top: -120px;
     display: none;
     z-index: 1;
+    position: absolute;
   }
 
   #closed {
@@ -603,7 +608,7 @@ body {
     background-color: #6f6c6b;
     width: 90%;
     height: 1px;
-    margin-left: 24px;
+    margin-left: 5%;
     right: 0;
     bottom: 0;
   }
@@ -651,7 +656,7 @@ body {
   .top-header ul li {
     list-style: none;
     font-family: "Lato", sans-serif;
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .top-header ul li .top-icon {
@@ -684,7 +689,7 @@ body {
     gap: 2rem;
     display: flex;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 13px;
     text-decoration: none;
     position: relative;
     width: 100%;
@@ -698,12 +703,12 @@ body {
   .nav-item a {
     text-decoration: none;
     color: #21212c;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .logo {
     display: block;
-    margin-left: 5rem;
+    margin-left: 20%;
   }
 
   .logo img {
@@ -716,18 +721,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 600px;
     box-shadow: inset 0 0 0 1000px rgba(210, 210, 209, 0.8);
   }
 
   .hero-content {
-    margin-left: 20px;
+    margin-left: 20%;
+    margin-top: 100px;
   }
 
   .hero-paragraph {
     color: #ec5242;
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 22px;
     font-weight: 500;
     line-height: 2rem;
     margin: 10px 0 0 1rem;
@@ -736,31 +742,35 @@ body {
   .hero-heading {
     color: #ec5242;
     font-family: "Cocogoose", sans-serif;
-    width: 26.5rem;
+    width: 500px;
     text-transform: uppercase;
     margin: 20px 0 0 1rem;
-    font-size: 2.5rem;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 900;
   }
 
   .hero-description {
     border: 2px solid #f4f4f4;
-    background-color: #d3d3d3;
-    margin: 0.5rem 0 0.3rem 1rem;
-    width: 250px;
-    max-width: calc(100% - 2rem);
+    background-color: #d4d1d1;
+    margin: 3rem 0 0.3rem 1rem;
+    width: 500px;
   }
 
   .hero-description p {
     font-family: "Lato", sans-serif;
     line-height: 1.5rem;
     margin: 1rem;
+    font-size: 15px;
   }
 
   .hero-date {
     font-family: "Cocogoose", sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    margin: 20px 0 0 1rem;
+    margin: 50px 0 0 1rem;
+    font-size: 27px;
+    color: #3a3939;
   }
 
   .hero-location {
@@ -768,6 +778,7 @@ body {
     font-weight: 500;
     padding-bottom: 4.5rem;
     margin: 10px 0 0 1rem;
+    font-size: 15px;
   }
 
   .main-program {
@@ -1008,18 +1019,18 @@ body {
   .about-hero-paragraph {
     color: #ec5242;
     font-family: "Lato", sans-serif;
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: 500;
     line-height: 2rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
   }
 
   .about-hero-heading {
     color: #ec5242;
     font-family: "Cocogoose", sans-serif;
     width: 100%;
-    font-size: 30px;
+    font-size: 42px;
     text-align: center;
     text-transform: uppercase;
     margin: 20px 0 0 1rem;
@@ -1031,7 +1042,7 @@ body {
     background-color: #fff;
     width: 40%;
     margin-left: 30%;
-    margin-top: 30px;
+    margin-top: 80px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -1048,16 +1059,17 @@ body {
     font-family: "Cocogoose", sans-serif;
     font-weight: bold;
     font-size: 15px;
+    width: 30%;
     text-align: center;
     text-transform: uppercase;
-    margin: 70px 0 0 1rem;
+    margin: 90px 0 0 35%;
     color: rgb(66, 65, 65);
   }
 
   .about-hero-location {
     font-family: "Lato", sans-serif;
     padding-bottom: 4.5rem;
-    margin: 20px 0 0 1rem;
+    margin: 40px 0 0 1rem;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
