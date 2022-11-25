@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web Study</title>
+</head>
+<body>
+    <!--======================== Header =========================!-->
+<section class="header">
+      <div class="top-header">
+       <ul>
+        <li><ion-icon name="logo-facebook" class="top-icon"></ion-icon></li>
+        <li><ion-icon name="logo-twitter" class="top-icon"></ion-icon></li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">My Page</a></li>
+        <li><a href="#">Logout</a></li>
+       </ul>
+      </div>
+      <div class="header-desk">
+      <a href="index.html" class="logo"
+          ><img src="./assets/images/logo.png" alt="logo"
+        /></a>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li class="nav-item active"><a href="index.html">Home</a> </li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="#speaker">Speakers</a></li>
+            <li class="nav-item"><a href="#partnersid">Partners</a></li>
+          </ul>
+        </nav>
+      </div> 
+      <div class="hamburger-icon" id="menuicon">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div id="menu-">
+        <div id="closed">
+        <span class="close">&times;</span>
+      </div>
+        <div id="menu-list">
+          <ul id="mlist">
+            <li><a href="index.html">Home</a></li><hr>
+            <li><a href="about.html">About</a></li><hr>
+            <li><a href="#speaker">Speakers</a></li> <hr>
+            <li><a href="#partnersid">Partners</a></li> <hr>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-content">
+         <p class="hero-paragraph">"Hello, Sharing World"</p>
+         <h1 class="hero-heading">Web Development Global Summit <br> 2022</h1>
+        <div class="hero-description">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit adlaudantium voluptatum, modi natus perspiciatis. </p>
+        </div>
+         <h2 class="hero-date">2022.10.20(Thu) ~ 21(Fri)</h2>
+         <p class="hero-location"> @ Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+</section>
+    <!--======================== Main Program =========================!-->
+    <section class="main-program" id="program">
+        <h2 class="program-title">Main Program</h2>
+        <hr class="divider" />
+        <div class="flexbox">
+          <div class="card">
+            <ion-icon name="microphone" class="program-icon"></ion-icon>
+            <h3>Lecture</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsa?</p>
+          </div>
+          <div class="card">
+            <ion-icon name="image" class="program-icon"></i></ion-icon>
+            <h3>Exhibition</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsa?</p>
+          </div>
+          <div class="card">
+            <ion-icon name="chatboxes" class="program-icon"></i></ion-icon>
+            <h3>Forum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsa?</p>
+          </div>
+          <div class="card">
+            <ion-icon name="desktop" class="program-icon"></i></ion-icon>
+            <h3>Workshop</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsa?</p>
+          </div>
+          <div class="card">
+            <ion-icon name="snow" class="program-icon"></i></ion-icon>
+            <h3>Dev Ignite</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsa?</p>
+          </div>
+        </div>
+        <button type="button" class="btn-primary">
+          Join Dev Global Summit 2022
+        </button>
+        <a href="#" class="whole-program">See the whole program</a>
+      </section>
+    <!--======================== Featured Speakers =========================!-->
+    <section class="featured-speakers container-fluid" id="speaker">
+        <div class="speaker-">
+          <h2 class="speaker-title">Featured Speakers</h2>
+          <hr class="divider"/>
+        </div>
+        <div class="row" id="speakers"></div>
+        <button type="button" class="btn-outline" id="btn-more">
+          More <ion-icon name="arrow-dropdown" class="btn-icon"></ion-icon>
+        </button>
+        <button type="button" class="btn-outline" id="btn-less">
+          Less <ion-icon name="arrow-dropup" class="btn-icon"></ion-icon></ion-icon>
+        </button>
+      </section>
+    <!--======================== Partner =========================!-->
+    <section class="partner" id="partnersid">
+      <h2 class="partner-title">Partners</h2>
+      <hr class="divider" />
+      <div class="partner-list">
+          <ul>
+              <li>mozilla</i></li>
+              <li>Google</li>
+              <li>NAVER</li>
+              <li>daumkakao</li>
+              <li><i class="fab fa-airbnb"></i>airbnb</li>
+          </ul>
+      </div>
+  </section>
+    <!--======================== footer =========================!-->
+    <section>
+      <footer class="about-footer container">
+        <img src="../assets/images/logo.png" alt="logo">
+        <p>&copy; 2022 Web Development Courses, Some Right Reserved.</p>
+      </footer>
+      </section>
+      <section class="footerdesk-">
+        <div class="deskfooter-">
+        <img src="./assets/images/logo.png" alt="Logo" />
+        </div>
+        <div class="footercontent-">
+        <h2 class="partner-desk">Dev Global Summit 2015 in Warsaw</h2>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi aliquid aperiam debitis accusantium.</p>
+        </div>
+    </section>
+</body>
+<script src="assets/js/index.js" defer></script>
+</html>
